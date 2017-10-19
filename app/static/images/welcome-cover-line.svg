@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="37px" viewBox="0 0 1440 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>welcome-cover-line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="webium-welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(0.000000, -625.000000)" fill="#FFFFFF">
+            <path d="M0,662 C0,662 335.659653,625.919238 720,625.919238 C1104.34035,625.919238 1440,662 1440,662 L0,662 Z" id="welcome-cover-line"></path>
+        </g>
+    </g>
+</svg>

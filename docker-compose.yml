@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  app:
+    restart: always
+    build: ./app
+    expose:
+      - "8000"
+    ports:
+      - "8000:8000"
+    volumes:
+      - /usr/src/app/static
+    command: /usr/local/bin/gunicorn -w 2 -b :8000 app:app

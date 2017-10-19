@@ -1,0 +1,51 @@
+/* line 2 */
+html, body {
+  font-family: "Rubik", sans-serif;
+}
+
+/* line 5 */
+#navbar {
+  position: absolute;
+  z-index: 1000;
+}
+
+/* line 8 */
+#navbar nav {
+  height: 80px;
+}
+
+/* line 11 */
+.welcome-cover {
+  position: relative;
+  height: 700px;
+  background: url("images/welcome-cover-space.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+/* line 17 */
+.welocme-cover__line {
+  position: absolute;
+  bottom: 0;
+}
+
+/* line 20 */
+.welcome-cover__content {
+  margin-top: 120px;
+}
+
+/* line 22 */
+.welcome-cover__content-h1 {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* line 27 */
+.welcome-cover__content-lead {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 30px;
+  letter-spacing: 0.5px;
+}

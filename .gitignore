@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*$py.class
+*.py[co]
+
+#MacOs
+*.DS_*
+
+#Cache
+.webassets-cache
+
+# Packages
+*.egg
+*.egg-info
+dist
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Coverage reports
+htmlcov
+.coverage
+.coverage.*
+*,cover
+
+#Mr Developer
+venv
+*.pyc
+build

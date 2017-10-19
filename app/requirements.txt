@@ -1,0 +1,4 @@
+Flask
+Flask-Assets
+Jinja2
+gunicorn
