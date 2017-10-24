@@ -41,7 +41,7 @@ html, body {
 .welcome-cover__content-lead {
   font-size: 24px;
   color: #fff;
-  margin-top: 30px;
+  margin-top: 24px;
   letter-spacing: 0.5px;
 }
 
@@ -105,4 +105,27 @@ html, body {
 /* line 64 */
 .welcome-products__product.welcome-products__product-support {
   width: 634px;
+}
+
+/* line 67 */
+.welcome-consulting__content-icon {
+  display: block;
+  margin: 0px auto 22px auto;
+  width: 62px;
+  height: 30px;
+}
+
+/* line 72 */
+.welcome-consulting__content-h2 {
+  font-size: 58px;
+  font-weight: 700;
+}
+
+/* line 75 */
+.welcome-consulting__content-byline {
+  font-size: 26px;
+  color: #494949;
+  line-height: 33px;
+  width: 540px;
+  margin: 30px 0px 10px 0px;
 }

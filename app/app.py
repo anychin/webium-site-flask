@@ -1,16 +1,14 @@
-from flask import Flask, render_template, request, redirect, url_for
-from flask_assets import Environment, Bundle
-
+from flask import Flask
+from flask import render_template
+from flask import request
+from flask import redirect
+from flask import url_for
+from flask_assets import Environment
+from flask_assets import Bundle
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    return render_template('welcome/welcome.html')
-
-@app.route('/ad-context')
-def show_landing_adcontext():
-    return render_template('landing/ad-context.html')
+from . import handlers
 
 @app.errorhandler(404)
 def page_not_found(error):
