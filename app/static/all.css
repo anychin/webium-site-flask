@@ -1,21 +1,36 @@
+@charset "UTF-8";
 /* line 2 */
 html, body {
   font-family: "Rubik", sans-serif;
   background-color: #f1f5f7;
 }
 
-/* line 6 */
+/* line 5 */
+a {
+  color: #099AEC;
+}
+
+/* line 8 */
 #navbar {
   position: absolute;
   z-index: 1000;
 }
 
-/* line 9 */
+/* line 11 */
 #navbar nav {
   height: 80px;
 }
 
-/* line 12 */
+/* line 14 */
+footer {
+  background: #fff;
+  padding: 20px 0px 20px 0px;
+  font-size: 12px;
+  color: #747474;
+  letter-spacing: 0.2px;
+}
+
+/* line 21 */
 .welcome-cover {
   position: relative;
   height: 620px;
@@ -24,12 +39,12 @@ html, body {
   padding-top: 80px;
 }
 
-/* line 18 */
+/* line 27 */
 .welcome-cover__content {
   margin-top: 120px;
 }
 
-/* line 20 */
+/* line 29 */
 .welcome-cover__content-h1 {
   color: #fff;
   font-size: 52px;
@@ -37,7 +52,7 @@ html, body {
   letter-spacing: 1px;
 }
 
-/* line 25 */
+/* line 34 */
 .welcome-cover__content-lead {
   font-size: 24px;
   color: #fff;
@@ -45,13 +60,13 @@ html, body {
   letter-spacing: 0.5px;
 }
 
-/* line 30 */
+/* line 39 */
 .welcome-products {
   position: relative;
   padding-top: 80px;
 }
 
-/* line 34 */
+/* line 43 */
 .welcome-products__content-h2 {
   color: #000000;
   font-size: 42px;
@@ -60,7 +75,7 @@ html, body {
   line-height: 41px;
 }
 
-/* line 40 */
+/* line 49 */
 .welcome-products__product {
   display: block;
   background: #FFFFFF;
@@ -69,7 +84,7 @@ html, body {
   margin: 0px 0px 60px 0px;
 }
 
-/* line 46 */
+/* line 55 */
 .welcome-products__product h4 {
   font-weight: 700;
   font-size: 24px;
@@ -78,36 +93,43 @@ html, body {
   margin-bottom: 2px;
 }
 
-/* line 52 */
+/* line 61 */
 .welcome-products__product p {
   font-size: 20px;
   margin-bottom: 0px;
   color: #000000;
   line-height: 28px;
+  font-weight: 200;
 }
 
-/* line 57 */
+/* line 67 */
 .welcome-products__product-container {
   width: 780px;
   margin: 80px auto;
 }
 
-/* line 60 */
+/* line 70 */
 .welcome-products__product.welcome-products__product-site {
   width: 450px;
 }
 
-/* line 62 */
+/* line 72 */
 .welcome-products__product.welcome-products__product-trafic {
   width: 495px;
 }
 
-/* line 64 */
+/* line 74 */
 .welcome-products__product.welcome-products__product-support {
   width: 634px;
 }
 
-/* line 67 */
+/* line 76 */
+.welcome-consulting__content {
+  padding-bottom: 60px;
+  background: url("images/welcome-consulting-anton-anuchin.png") no-repeat right bottom;
+}
+
+/* line 79 */
 .welcome-consulting__content-icon {
   display: block;
   margin: 0px auto 22px auto;
@@ -115,17 +137,98 @@ html, body {
   height: 30px;
 }
 
-/* line 72 */
+/* line 84 */
 .welcome-consulting__content-h2 {
   font-size: 58px;
   font-weight: 700;
 }
 
-/* line 75 */
+/* line 87 */
 .welcome-consulting__content-byline {
   font-size: 26px;
   color: #494949;
   line-height: 33px;
   width: 540px;
-  margin: 30px 0px 10px 0px;
+  margin: 30px auto 60px auto;
+}
+
+/* line 93 */
+.welcome-consulting__content-quote {
+  font-weight: 700;
+  font-size: 24px;
+  color: #494949;
+  line-height: 34px;
+  width: 644px;
+}
+
+/* line 99 */
+.welcome-consulting__content-requests {
+  margin: 46px 0px 0px 0px;
+  color: #494949;
+}
+/* line 102 */
+.welcome-consulting__content-requests h5 {
+  font-size: 26px;
+  line-height: 38px;
+}
+
+/* line 105 */
+.welcome-consulting__content-requests-list {
+  margin: 0px 0px 30px 0px;
+  list-style: none;
+}
+/* line 108 */
+.welcome-consulting__content-requests-list li {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 38px;
+}
+/* line 112 */
+.welcome-consulting__content-requests-list li:before {
+  content: "—";
+  position: absolute;
+  margin-left: -20px;
+}
+
+/* line 116 */
+.welcome-communication {
+  background: #fff;
+  padding: 30px 0px;
+}
+
+/* line 119 */
+.welcome-communication__content {
+  padding: 78px 0px 70px 0px;
+}
+
+/* line 121 */
+.welcome-communication__content-lead {
+  font-weight: 200;
+  font-size: 18px;
+  color: #747474;
+  line-height: 41px;
+}
+
+/* line 126 */
+.welcome-communication__content-h2 {
+  color: #494949;
+  font-size: 58px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 43px;
+}
+
+/* line 132 */
+.welcome-communication__content-text {
+  margin: 26px 0px 50px 0px;
+  font-weight: 200;
+  width: 60%;
+  font-size: 24px;
+  color: #494949;
+  line-height: 30px;
+}
+
+/* line 139 */
+.welcome-communication__content-links {
+  font-size: 26px;
 }
