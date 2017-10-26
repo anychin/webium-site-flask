@@ -28,7 +28,7 @@ def welcome():
 assets = Environment(app)
 assets.url = app.static_url_path
 
-css_bundle = Bundle('css/application.sass', filters='sass', output='all.css')
+css_bundle = Bundle('css/application.sass', 'css/landing.sass', filters='sass', output='all.css')
 assets.register('css_all', css_bundle)
 
 if __name__ == "__main__":
