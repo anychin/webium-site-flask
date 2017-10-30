@@ -13,7 +13,7 @@ def page_not_found(error):
     return render_template('404.html'), 404
 
 @app.route('/ad-context')
-def show_landing_adcontext():
+def show_landing_adcontext():    
     return render_template('landing/ad-context.html')
 
 @app.route('/favicon.ico')

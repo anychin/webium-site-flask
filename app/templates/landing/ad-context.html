@@ -1,25 +1,123 @@
 {% extends "/layout/landing.html" %}
 {% block content %}
 <section class="landing-adcontext-cover">
-  <h1 class="landing-adcontext-cover-h1 text-center">Настраиваю рекламу в Яндекс и Google</h1>
+  <h1 class="landing-adcontext-cover-h1 text-center">
+    Настраиваю рекламу<br>в Яндекс и Google
+  </h1>
   <p class="lead text-center">
     От 6000 руб. и 5 дней
   </p>
-  <div>
-    <img src="">
-    <div>Я то что надо!</div>
-    <p>
-      Мой возраст 32. Имею 12-летний опыт в ИТ, маркетинге и web-разработке. Работаю с интернет-рекламой более 7 лет. Знаю свое дело и могу выполнять его качественно.
-    </p>
-    <p>
-      Я лично веду процесс, работаю с командой помощников. Рассчитываю на длительное партнерство.
-    </p>
+  <div class="landing-adcontext-cover--message">
+    <img class="landing-adcontext-cover--message-avatar" src="/static/images/page-adcontext/avatar.png">
+    <div class="landing-adcontext-cover--message-chatContainer">
+      <div class="landing-adcontext-cover--message-chat">
+        <img src="/static/images/page-adcontext/speech.svg">
+        <span>Я то что надо!</span>
+      </div>
+      <div class="landing-adcontext-cover--message-text">
+        <p>
+          Мой возраст 32. Имею 12-летний опыт в ИТ, маркетинге и web-разработке.
+          Работаю с интернет-рекламой более 7 лет. Знаю свое дело и могу
+          выполнять его качественно.
+        </p>
+        <p>
+          Я лично веду процесс, работаю с командой помощников. Рассчитываю на
+          длительное партнерство.
+        </p>
+      </div>
+    </div>
   </div>
 </section>
 <section class="landing-adcontext-prices">
+  <h2 class="landing-adcontext-prices--h2 text-center">Тарифы</h2>
+  <ul class="landing-adcontext-prices--rate">
+    <li class="landing-adcontext-prices--rate-item">
+      <h4>Старт</h4>
+      <span>₽ 6 000</span>
+      <p>Тестирование гипотез</p>
+      <ul>
+        <li>До 600 ключевых слов</li>
+        <li>Сбор минус-слов></li>
+        <li>Разделение кампаний</li>
+        <li>UTM-метки</li>
+        <li>Яндекс.Директ Поиск</li>
+        <li>Google Adwords Поиск</li>
+        <li class="disabled">Яндекс.Директ РСЯ</li>
+        <li class="disabled">Google Adwords КМС</li>
+        <li class="disabled">Яндекс.Директ Ретаргетинг</li>
+        <li class="disabled">Google Adwords Ретаргетинг</li>
+        <li class="disabled">Настройка целей</li>
+        <li class="disabled">Настройка Google eCommerce</li>
+        <li class="disabled">Аналитический отчет</li>
+      </ul>
+    </li>
+    <li class="landing-adcontext-prices--rate-item">
+      <h4>Разгон</h4>
+      <span>₽ 28 000</span>
+      <p>Запуск направления</p>
+      <ul>
+        <li>До 20 000 ключевых слов</li>
+        <li>Сбор минус-слов</li>
+        <li>Разделение кампаний</li>
+        <li>UTM-метки</li>
+        <li>Яндекс.Директ Поиск</li>
+        <li>Google Adwords Поиск</li>
+        <li>Яндекс.Директ РСЯ</li>
+        <li>Google Adwords КМС</li>
+        <li>Яндекс.Директ Ретаргетинг</li>
+        <li>Google Adwords Ретаргетинг</li>
+        <li>Настройка целей</li>
+        <li>Настройка Google eCommerce</li>
+        <li>Аналитический отчет</li>
+      </ul>
+    </li>
+    <li class="landing-adcontext-prices--rate-item">
+      <h4>Управление</h4>
+      <span>от ₽ 9 500</span><i>/мес</i>
+      <p>Развитие действующих РК</p>
+      <ul>
+        <li>Контроль трафика и цен</li>
+        <li>Сегментирование трафика</li>
+        <li>Оптимизация конверсии</li>
+        <li>Поиск новых запросов</li>
+        <li>Расширение минус-слов</li>
+        <li>Обновление объявлений</li>
+        <li>Обновление баннеров</li>
+        <li>А/Б тесты</li>
+        <li>Сбор данных</li>
+        <li>Аналитический отчет</li>
+        <li>Динамические объявления</li>
+        <li>eCommerce</li>
+        <li>Консультации</li>
+      </ul>
+    </li>
+  </ul>
 </section>
 <section class="landing-adcontext-consulting">
+  <h2 class="landing-adcontext-consulting--h2  text-center">Уже запущена реклама?</h2>
+  <span class="landing-adcontext-consulting--lead">Консультации экперта</span>
+  <p class="landing-adcontext-consulting--text">
+    Я провожу онлайн–консультации и аудит в реальном времени. Мы подключаемся
+    к вашему экрану и просматриваем существующие кампании, а также анализируем трафик вместе с вами.
+  </p>
+  <div class="landing-adcontext-consulting--price">
+    <span class="landing-adcontext-consulting--price-value">₽ 3000</span>
+    <span class="landing-adcontext-consulting--price-lead">за консультацию</span>
+  </div>
 </section>
 <section class="landing-sendrequest">
+    <h2 class="landing-sendrequest--h2 text-center">Заявка</h2>
+    <p class="lead text-center">Подходящий тариф мы подберем вместе</p>
+    <form class="landing-sendrequest--form text-center">
+      <div class="form-group">
+        <label for="inputSite">Сайт</label>
+        <input type="text" class="form-control form-control-lg" id="inputSite" name="site" placeholder="yandex.ru">
+      </div>
+      <div class="form-group">
+        <label for="inputPhone">Телефон</label>
+        <input type="text" class="form-control form-control-lg" id="inputPhone" name="phone" placeholder="79265002030">
+      </div>
+      <button type="submit" class="btn btn-primary">Отправить</button>
+    </form>
 </section>
 {% endblock %}
