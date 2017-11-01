@@ -108,16 +108,16 @@
 <section class="landing-sendrequest">
     <h2 class="landing-sendrequest--h2 text-center">Заявка</h2>
     <p class="lead text-center">Подходящий тариф мы подберем вместе</p>
-    <form class="landing-sendrequest--form text-center">
+    <form class="landing-sendrequest--form text-center" method="POST" action="{{request.path}}">
       <div class="form-group">
         <label for="inputSite">Сайт</label>
-        <input type="text" class="form-control form-control-lg" id="inputSite" name="site" placeholder="yandex.ru">
+        <input type="text" class="form-control form-control-lg" id="inputSite" name="website" placeholder="yandex.ru">
       </div>
       <div class="form-group">
         <label for="inputPhone">Телефон</label>
         <input type="text" class="form-control form-control-lg" id="inputPhone" name="phone" placeholder="79265002030">
       </div>
-      <button type="submit" class="btn btn-primary">Отправить</button>
+      <button type="submit" class="landing-sendrequest--form-submit btn btn-lg">Отправить</button>
     </form>
 </section>
 {% endblock %}
