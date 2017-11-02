@@ -31,7 +31,7 @@ htmlcov
 *,cover
 
 #Mr Developer
-config.py
+.env
 venv
 *.pyc
 build

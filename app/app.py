@@ -6,6 +6,7 @@ from flask import url_for
 from flask_assets import Environment
 from flask_assets import Bundle
 import requests
+import logging
 
 app = Flask(__name__)
 app.config.from_object('config')
@@ -63,4 +64,4 @@ css_bundle = Bundle('css/application.sass', 'css/landing.sass', filters='sass', 
 assets.register('css_all', css_bundle)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0")
